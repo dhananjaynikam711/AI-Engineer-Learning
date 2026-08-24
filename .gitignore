@@ -1,0 +1,32 @@
+# Personal / local-only directories
+interview-prep/
+knowledge-check/
+notes/
+
+# Personal progress tracking
+INTERVIEW_MASTER.md
+
+# Internal authoring tools
+_generate_stubs.py
+.cursor/
+
+# Project stubs (not yet generated)
+projects/
+
+# Weeks not yet fully generated (add week folders as content is completed)
+week-02/
+week-03/
+week-04/
+week-05/
+week-06/
+week-07/
+week-08/
+week-09/
+week-10/
+week-11/
+week-12/
+
+# Week 1 — exclude stub/review days until generated
+week-01/day-05.md
+week-01/day-06-review.md
+week-01/day-07-review.md
