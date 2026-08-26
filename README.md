@@ -67,7 +67,7 @@ Do **not** excessively focus on mathematics. When math appears:
 | Path | Purpose |
 |------|---------|
 | [`COURSE_PLAN.md`](COURSE_PLAN.md) | Full 12-week / 84-day roadmap |
-| [`PROGRESS.md`](PROGRESS.md) | Personal progress tracking (local; not required for colleagues) |
+| `PROGRESS.md` | Personal progress tracking (local only; gitignored) |
 | [`week-XX/day-XX.md`](week-01/) | Daily lessons |
 | [`projects/`](projects/) | Six incremental hands-on projects (added as you reach them) |
 | `notes/` | Personal study notes (gitignored) |
@@ -193,6 +193,7 @@ These directories are excluded from version control and are safe to use locally:
 - `.specstory/` — SpecStory session history
 - `.cursorindexingignore` — Cursor indexing exclusions
 - `notes/`, `interview-prep/`, `knowledge-check/` — personal study material
+- `PROGRESS.md` — personal course progress
 
 ---
 
