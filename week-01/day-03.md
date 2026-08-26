@@ -1,7 +1,5 @@
 # Day 3 — RAG Fundamentals
 
-> **Status:** COMPLETED (complete self assessment to confirm understanding)
-
 ---
 
 ## Learning Objectives

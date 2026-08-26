@@ -120,14 +120,25 @@ When you say **"Quiz me"**:
 
 See `COURSE_PLAN.md` for the full day-by-day breakdown (84 days).
 
+### Week 1 lessons (available now)
+
+| Day | Topic | Lesson |
+| --- | ----- | ------ |
+| 1 | AI / ML / Deep Learning / LLM Landscape | [week-01/day-01.md](week-01/day-01.md) |
+| 2 | LLM Fundamentals | [week-01/day-02.md](week-01/day-02.md) |
+| 3 | RAG Fundamentals | [week-01/day-03.md](week-01/day-03.md) |
+| 4 | Enterprise RAG | [week-01/day-04.md](week-01/day-04.md) |
+
+Days 5–7 and later weeks are generated as you progress through the course.
+
 ---
 
 ## Current Status
 
 | Days | Status |
 |------|--------|
-| 1–3 | **COMPLETED** (detailed lessons in `week-01/`) |
-| 4–84 | Planned stubs — activate when you reach each day |
+| 1–4 | **AVAILABLE** (detailed lessons in [`week-01/`](week-01/)) |
+| 5–84 | Generated as you reach each day |
 
 **Next:** Day 4 — Enterprise RAG
 

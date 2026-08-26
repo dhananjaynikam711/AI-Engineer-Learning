@@ -1,7 +1,5 @@
 # Day 2 — LLM Fundamentals
 
-> **Status:** COMPLETED (complete self assessment to confirm understanding)
-
 ---
 
 ## Learning Objectives

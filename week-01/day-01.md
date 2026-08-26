@@ -1,7 +1,5 @@
 # Day 1 — AI / ML / Deep Learning / LLM Landscape
 
-> **Status:** COMPLETED (complete self assessment to confirm understanding)
-
 ---
 
 ## Learning Objectives

@@ -9,6 +9,8 @@ INTERVIEW_MASTER.md
 # Internal authoring tools
 _generate_stubs.py
 .cursor/
+.cursorindexingignore
+.specstory/
 
 # Project stubs (not yet generated)
 projects/
