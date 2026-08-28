@@ -216,6 +216,8 @@ One of the most important concepts is the **golden evaluation dataset** — a se
 
 This becomes the benchmark for measuring changes over time.
 
+A practical approach: create a **question bank** with expected answers and relevant sources, then run the full RAG pipeline against it whenever you change chunking, embeddings, retrieval, or prompts.
+
 ---
 
 ### 7. Why the Golden Dataset Matters
@@ -650,6 +652,46 @@ A system can be highly accurate but too slow or expensive to operate.
 
 ---
 
+### 30. The RAG Evaluation Loop
+
+The complete engineering loop:
+
+```
+                  Build RAG
+                     ↓
+                Create Dataset
+                     ↓
+                  Evaluate
+                     ↓
+                Analyze Failures
+                     ↓
+           Identify Pipeline Problem
+                     ↓
+        ┌────────────┼────────────┐
+        ↓            ↓            ↓
+     Chunking     Retrieval     Prompt
+        │            │            │
+        └────────────┼────────────┘
+                     ↓
+                  Modify
+                     ↓
+                  Evaluate
+                     ↓
+              Compare Baseline
+                     ↓
+              Deploy if Improved
+                     ↓
+              Monitor Production
+                     ↓
+              Add New Failures
+                     ↓
+             Update Evaluation Set
+```
+
+> **Evaluation is a continuous feedback loop.**
+
+---
+
 ## Mental Model
 
 If you remember only one thing today, remember this:
@@ -692,41 +734,84 @@ If you remember only one thing today, remember this:
 
 ---
 
-## The RAG Evaluation Loop
+## Hands-On Exercise
+
+### Exercise 1 — Build a Small Evaluation Dataset (30 minutes)
+
+Imagine a RAG system containing these documents:
+
+**Document 1 — Chemical X Safety Procedure**
+
+> Workers handling Chemical X must wear chemical-resistant gloves and eye protection.
+
+**Document 2 — Chemical X Storage Procedure**
+
+> Chemical X must be stored below 25°C in approved containers.
+
+**Document 3 — Chemical X Emergency Procedure**
+
+> In case of a spill, evacuate the immediate area and notify the safety officer.
+
+**Document 4 — Historical Procedure**
+
+> The previous Chemical X procedure required only gloves.
+
+Create expected results for these questions:
+
+| Question | |
+|----------|---|
+| **A** | What PPE is required when handling Chemical X? |
+| **B** | How should Chemical X be stored? |
+| **C** | What should an employee do if Chemical X spills? |
+| **D** | What PPE was required under the historical procedure? |
+| **E** | What is the current PPE requirement? |
+
+For each question, identify:
+
+1. Relevant document
+2. Relevant information
+3. Expected answer
+4. Whether the answer requires the **current** version
+5. Whether the question should be answerable
+
+Do not worry about calculating mathematical metrics yet. Focus on defining what *good* retrieval and generation look like for each question.
+
+---
+
+### Exercise 2 — Debug a RAG Failure Using Evaluation (20 minutes)
+
+Work through this scenario step by step. For each diagnostic question, write your answer before moving on.
+
+**User question:** *"What PPE is required when handling Chemical X?"*
+
+**Retrieved chunks:**
 
 ```
-                  Build RAG
-                     ↓
-                Create Dataset
-                     ↓
-                  Evaluate
-                     ↓
-                Analyze Failures
-                     ↓
-           Identify Pipeline Problem
-                     ↓
-        ┌────────────┼────────────┐
-        ↓            ↓            ↓
-     Chunking     Retrieval     Prompt
-        │            │            │
-        └────────────┼────────────┘
-                     ↓
-                  Modify
-                     ↓
-                  Evaluate
-                     ↓
-              Compare Baseline
-                     ↓
-              Deploy if Improved
-                     ↓
-              Monitor Production
-                     ↓
-              Add New Failures
-                     ↓
-             Update Evaluation Set
+Chunk 1: Chemical X must be stored below 25°C in approved containers.
+Chunk 2: Chemical X was introduced in 2018.
+Chunk 3: The previous Chemical X procedure required only gloves.
 ```
 
-> **Evaluation is a continuous feedback loop.**
+**LLM answer:** *"Workers handling Chemical X must wear chemical-resistant gloves and eye protection."*
+
+Determine:
+
+1. Was retrieval good?
+2. Was the context sufficient?
+3. Was the answer relevant?
+4. Was the answer grounded?
+5. Was it correct?
+6. Where did the failure occur (if any)?
+
+This exercise builds the habit of **debugging RAG systems using evaluation results rather than intuition**.
+
+---
+
+### Exercise 3 — Design Evaluation Categories (15 minutes)
+
+For an enterprise document assistant serving 5,000 employees across 3 plants, list at least 8 evaluation categories and one example question per category. Include at least one **no-answer** question and one **freshness** question.
+
+---
 
 ## Knowledge Check
 
@@ -815,4 +900,4 @@ You do not need to memorize specific evaluation frameworks or vendor tools. The 
 
 **Day 6 — Week 1 Review** — consolidate Days 1–5 and confirm understanding of the LLM and RAG foundations before moving to Week 2.
 
-Complete the self assessment above before moving on.
+Complete the exercises and self assessment above before moving on.
