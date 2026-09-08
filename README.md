@@ -129,7 +129,7 @@ See [`COURSE_PLAN.md`](COURSE_PLAN.md) for the full day-by-day breakdown.
 | 4 | Enterprise RAG | [week-01/day-04.md](week-01/day-04.md) |
 | 5 | RAG Evaluation | [week-01/day-05.md](week-01/day-05.md) |
 | 6 | Production RAG: Reliability, Observability & Optimization | [week-01/day-06.md](week-01/day-06.md) |
-| 7 | Rest / Spaced Review | _stub — generated when you reach this day_ |
+| 7 | Advanced RAG: Query Understanding, Context Engineering & RAG Patterns | [week-01/day-07.md](week-01/day-07.md) |
 
 Weeks 2–12 follow the same pattern: lessons are added to the repo as they are written.
 
@@ -139,12 +139,11 @@ Weeks 2–12 follow the same pattern: lessons are added to the repo as they are 
 
 | Content | Status |
 |---------|--------|
-| Days 1–6 | **Available** — full lessons in [`week-01/`](week-01/) |
-| Day 7 | Stub — spaced review |
+| Days 1–7 | **Available** — full lessons in [`week-01/`](week-01/) |
 | Days 8–84 | Planned — see [`COURSE_PLAN.md`](COURSE_PLAN.md) |
 | Projects | Not yet started — see projects roadmap in course plan |
 
-**Suggested next step:** [Day 6 — Production RAG](week-01/day-06.md), then Week 1 spaced review (Day 7).
+**Suggested next step:** [Day 7 — Advanced RAG](week-01/day-07.md), then Week 2 Day 8.
 
 ---
 
@@ -159,7 +158,7 @@ Day 3  → RAG pipeline: ingest, chunk, embed, retrieve, generate, ground
 Day 4  → Enterprise RAG: ingestion, ACL, hybrid search, freshness, security
 Day 5  → RAG evaluation: retrieval, generation, golden datasets, regression testing
 Day 6  → Production RAG: observability, caching, reliability, cost optimization
-Day 7  → Spaced review
+Day 7  → Advanced RAG: query understanding, context engineering, routing, agentic patterns
 ```
 
 ---

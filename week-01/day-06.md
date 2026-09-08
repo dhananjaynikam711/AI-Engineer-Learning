@@ -1018,6 +1018,6 @@ You do not need to memorize specific monitoring tools or cloud vendor products. 
 
 ## Next
 
-**Day 7 — Rest / Spaced Review** — consolidate Week 1 (Days 1–6) before moving to Week 2.
+**Day 7 — Advanced RAG: Query Understanding, Context Engineering & RAG Patterns** — query decomposition, context engineering, routing, and agentic RAG patterns.
 
 Complete the exercises and self assessment above before moving on.

@@ -10,7 +10,7 @@
 - Engineering understanding over mathematics
 - Architecture before vendor technology
 - Enterprise examples throughout
-- Flexible — modify based on gaps, interview feedback, new technology
+- Flexible — modify based on gaps, evaluation results, and new technology
 - Do not mark complete without demonstrated understanding
 
 ---
@@ -25,9 +25,9 @@
 | 2 | LLM Fundamentals | ✅ COMPLETED | `week-01/day-02.md` |
 | 3 | RAG Fundamentals | ✅ COMPLETED | `week-01/day-03.md` |
 | 4 | Enterprise RAG | ✅ Documented | `week-01/day-04.md` |
-| 5 | RAG Evaluation | 📋 NOT STARTED | `week-01/day-05.md` |
+| 5 | RAG Evaluation | ✅ Documented | `week-01/day-05.md` |
 | 6 | Production RAG: Reliability, Observability & Optimization | ✅ Documented | `week-01/day-06.md` |
-| 7 | Rest / Spaced Review | 📋 NOT STARTED | `week-01/day-07-review.md` |
+| 7 | Advanced RAG: Query Understanding, Context Engineering & RAG Patterns | ✅ Documented | `week-01/day-07.md` |
 
 ---
 
