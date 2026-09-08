@@ -898,6 +898,6 @@ You do not need to memorize specific evaluation frameworks or vendor tools. The 
 
 ## Next
 
-**Day 6 — Week 1 Review** — consolidate Days 1–5 and confirm understanding of the LLM and RAG foundations before moving to Week 2.
+**Day 6 — Production RAG: Reliability, Observability & Optimization** — run the RAG system reliably in production with observability, caching, retries, and cost optimization.
 
 Complete the exercises and self assessment above before moving on.

@@ -26,7 +26,7 @@
 | 3 | RAG Fundamentals | ✅ COMPLETED | `week-01/day-03.md` |
 | 4 | Enterprise RAG | ✅ Documented | `week-01/day-04.md` |
 | 5 | RAG Evaluation | 📋 NOT STARTED | `week-01/day-05.md` |
-| 6 | Week 1 Review | 📋 NOT STARTED | `week-01/day-06-review.md` |
+| 6 | Production RAG: Reliability, Observability & Optimization | ✅ Documented | `week-01/day-06.md` |
 | 7 | Rest / Spaced Review | 📋 NOT STARTED | `week-01/day-07-review.md` |
 
 ---
