@@ -15,18 +15,3 @@ _generate_stubs.py
 
 # Project stubs (not yet generated)
 projects/
-
-# Weeks not yet fully generated (add week folders as content is completed)
-week-02/
-week-03/
-week-04/
-week-05/
-week-06/
-week-07/
-week-08/
-week-09/
-week-10/
-week-11/
-week-12/
-
-# Week 1 — exclude stub/review days until generated
