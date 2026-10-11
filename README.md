@@ -131,7 +131,13 @@ See [`COURSE_PLAN.md`](COURSE_PLAN.md) for the full day-by-day breakdown.
 | 6 | Production RAG: Reliability, Observability & Optimization | [week-01/day-06.md](week-01/day-06.md) |
 | 7 | Advanced RAG: Query Understanding, Context Engineering & RAG Patterns | [week-01/day-07.md](week-01/day-07.md) |
 
-Weeks 2–12 follow the same pattern: lessons are added to the repo as they are written.
+## Week 2 — Available Lessons
+
+| Day | Topic | Lesson |
+|-----|-------|--------|
+| 8 | Prompt Engineering | [week-02/day-08.md](week-02/day-08.md) |
+
+Weeks 3–12 follow the same pattern: lessons are added to the repo as they are written.
 
 ---
 
@@ -140,10 +146,11 @@ Weeks 2–12 follow the same pattern: lessons are added to the repo as they are 
 | Content | Status |
 |---------|--------|
 | Days 1–7 | **Available** — full lessons in [`week-01/`](week-01/) |
-| Days 8–84 | Planned — see [`COURSE_PLAN.md`](COURSE_PLAN.md) |
+| Day 8 | **Available** — [`week-02/`](week-02/) |
+| Days 9–84 | Planned — see [`COURSE_PLAN.md`](COURSE_PLAN.md) |
 | Projects | Not yet started — see projects roadmap in course plan |
 
-**Suggested next step:** [Day 7 — Advanced RAG](week-01/day-07.md), then Week 2 Day 8.
+**Suggested next step:** [Day 8 — Prompt Engineering](week-02/day-08.md).
 
 ---
 
