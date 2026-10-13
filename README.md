@@ -137,6 +137,7 @@ See [`COURSE_PLAN.md`](COURSE_PLAN.md) for the full day-by-day breakdown.
 |-----|-------|--------|
 | 8 | Prompt Engineering | [week-02/day-08.md](week-02/day-08.md) |
 | 9 | Structured Outputs | [week-02/day-09.md](week-02/day-09.md) |
+| 10 | Function Calling / Tool Calling | [week-02/day-10.md](week-02/day-10.md) |
 
 Weeks 3–12 follow the same pattern: lessons are added to the repo as they are written.
 
@@ -147,11 +148,11 @@ Weeks 3–12 follow the same pattern: lessons are added to the repo as they are 
 | Content | Status |
 |---------|--------|
 | Days 1–7 | **Available** — full lessons in [`week-01/`](week-01/) |
-| Days 8–9 | **Available** — [`week-02/`](week-02/) |
-| Days 10–84 | Planned — see [`COURSE_PLAN.md`](COURSE_PLAN.md) |
+| Days 8–10 | **Available** — [`week-02/`](week-02/) |
+| Days 11–84 | Planned — see [`COURSE_PLAN.md`](COURSE_PLAN.md) |
 | Projects | Not yet started — see projects roadmap in course plan |
 
-**Suggested next step:** [Day 9 — Structured Outputs](week-02/day-09.md).
+**Suggested next step:** [Day 10 — Function Calling / Tool Calling](week-02/day-10.md).
 
 ---
 
